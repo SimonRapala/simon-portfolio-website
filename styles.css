@@ -21,6 +21,7 @@
 
 body{
   margin: 0px;
+  background-color: peachpuff;
 }
 
 p{
@@ -31,14 +32,71 @@ p{
 .home-layout{
   display: flex;
   align-items: top;
-  border: 2px solid #ccc;
+}
+
+.home-text-box{
+  border: 2px solid hotpink;
+  border-radius: 24px;
+  margin-left: 100px;
+  
+}
+
+.home-text{
+  margin: 17px;
+
+}
+
+.home-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  margin-top: 55px;
+}
+
+.home-btn{
+  padding: 5px;
+  margin-bottom: 3px;
+  border: 1px solid black;
+  border-radius: 10%;
+  background-color: lightpink;
 }
 
 .profile-picture{
-  margin-right: 50px;
-  margin-left: 20px;
+  margin-right: 250px;
+  margin-left: 100px;
   width: 320px;
-  height: 240px;
+  height: 270px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.about-layout{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: 30px;
+  align-items: flex-start;
+}
+
+.about-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title{
+  margin: 0 0 12px 0;
+}
+
+.about-textbox-outline{
+  border: 2px solid rgba(255, 187, 0, 0.973);
+  padding: 40px;
+  border-radius: 24px;
+  height: auto;
+}
+
+.about-textbox-outline li{
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
