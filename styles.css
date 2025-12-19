@@ -28,6 +28,15 @@ p{
   white-space: normal;
 }
 
+h2{
+  margin-top: 80px;
+  margin-bottom: 55px;
+}
+
+.home-h2{
+  margin-top: 0px;
+}
+
 
 .home-layout{
   display: flex;
@@ -99,4 +108,25 @@ p{
 .about-textbox-outline li{
   margin-bottom: 10px;
   line-height: 1.6;
+}
+
+.experience-item{
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 60px;
+  align-items: start;
+  margin-bottom: 25px;
+}
+
+.experience-list{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.job, .job-info{
+  margin: 0;
+  border: 2px solid rgb(33, 131, 14);
+  border-radius: 22px;
+  padding: 18px;
 }
