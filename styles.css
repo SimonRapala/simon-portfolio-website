@@ -130,3 +130,19 @@ h2{
   border-radius: 22px;
   padding: 18px;
 }
+
+.project-row-grid,
+.project-row-grid-reverse{
+  display: grid;
+  grid-template-columns: max-content max-content; /* columns hug content */
+  justify-content: space-evenly;                 /* like flex space-evenly */
+  width: 100%;
+  justify-items: start;
+}
+
+.project-info,
+.project-image{
+  width: fit-content; /* optional now, max-content already does it */
+  padding: 16px;
+  border: 2px solid #333;
+}
