@@ -185,23 +185,25 @@ h2{
   display: inline-block;
   border: 1px solid black;
   padding: 14px;
-  border-radius: 8%;
+  border-radius: 15px;
 }
 
 .contact-info-grid-layout{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
-  margin: 20px;
+  row-gap: 18px;
+  column-gap: 38px;
+  margin: 200px;
+  margin-top: 100px;
 }
 
 .contact-info-grid-layout a{
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   border: 1px solid black;
   padding: 40px 150px;
-  
+  gap: 60px;
+  border-radius: 25px;
 }
 
 .contact-info-grid-layout a p{
