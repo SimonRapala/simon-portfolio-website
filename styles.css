@@ -113,9 +113,9 @@ h2{
 .experience-item{
   display: grid;
   grid-template-columns: 320px 1fr;
-  gap: 60px;
+  column-gap: 80px;
   align-items: start;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 
 .experience-list{
@@ -124,25 +124,55 @@ h2{
   padding: 0 16px;
 }
 
-.job, .job-info{
+.job-header, .job-info{
   margin: 0;
   border: 2px solid rgb(33, 131, 14);
   border-radius: 22px;
-  padding: 18px;
+  padding-left: 24px;
+}
+
+.job-info{
+  padding: 16px;
+  padding-left: 36px;
+  margin: 0;
+}
+
+.project-layout-grid{
+  display: grid;
+  row-gap: 75px;
 }
 
 .project-row-grid,
 .project-row-grid-reverse{
   display: grid;
-  grid-template-columns: max-content max-content; /* columns hug content */
-  justify-content: space-evenly;                 /* like flex space-evenly */
+  grid-template-columns: max-content max-content;
+  justify-content: space-evenly;
+  align-items: flex-start;
   width: 100%;
-  justify-items: start;
+  justify-items: center; 
 }
 
 .project-info,
 .project-image{
-  width: fit-content; /* optional now, max-content already does it */
+  justify-items: center;
   padding: 16px;
   border: 2px solid #333;
+}
+.project-info{
+  align-self: center;
+}
+
+.image-KNN{
+  width: 460px;
+  height: 550px;
+}
+
+.image-musicLL{
+  width: 420px;
+  height: 600px;
+}
+
+.image-portfolio{
+  width: 600px;
+  height: 400px;
 }
