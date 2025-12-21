@@ -176,3 +176,43 @@ h2{
   width: 600px;
   height: 400px;
 }
+
+.header-contact-container{
+  text-align: center;
+}
+
+.header-contact-info{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 14px;
+  border-radius: 8%;
+}
+
+.contact-info-grid-layout{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 20px;
+}
+
+.contact-info-grid-layout a{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  padding: 40px 150px;
+  
+}
+
+.contact-info-grid-layout a p{
+  margin: 0px;
+}
+
+.contact-info-grid-layout a:last-child{
+  grid-column: 1 / -1;
+}
+
+.image-contact-info{
+  width: 43px;
+  height: 43px;
+}
