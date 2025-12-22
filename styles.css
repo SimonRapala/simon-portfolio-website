@@ -1,27 +1,45 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.website-header{
+  display: flex;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+}
+
 .title-css{
+  display: inline;
   color: black;
-  background-color: skyblue;
   margin: 0px;
-  padding: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 60px;
   text-align: center;
 }
 .nav-bar-box{
-  outline-style: solid;
-  outline-width: 1px;
-  outline-color: grey;
-  background-color: rgb(179, 252, 248);
+  flex: 1;
 }
 
 .nav-bar-list{
-  margin-top: 0px;
   display: flex;
   gap: 80px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 body{
   margin: 0px;
-  background-color: peachpuff;
+  background-color: white;
 }
 
 p{
@@ -31,6 +49,10 @@ p{
 h2{
   margin-top: 80px;
   margin-bottom: 55px;
+}
+
+section {
+  scroll-margin-top: 100px;
 }
 
 .home-h2{
@@ -200,9 +222,9 @@ h2{
 .contact-info-grid-layout a{
   display: flex;
   align-items: center;
+  justify-content: center;
   border: 1px solid black;
   padding: 40px 150px;
-  gap: 60px;
   border-radius: 25px;
 }
 
@@ -217,4 +239,20 @@ h2{
 .image-contact-info{
   width: 43px;
   height: 43px;
+  margin-right: 8px;
+}
+
+.school-email-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-school-email{
+  height: 43px;
+  flex: 0 0 auto;
+}
+
+.contact-link-text{
+
 }
