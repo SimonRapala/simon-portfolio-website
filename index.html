@@ -23,16 +23,18 @@
 
     <main>
       <section id="home">
-        <h2 class="home-h2"></h2>
+        <div class="header-container">
+          <h2 class="header-title card">Home</h2>
+        </div>
         <div class="home-layout">
           <div class="home-image">
             <img
               class="profile-picture"
-              src="Images/imageoofme.jpg"
+              src="Images/imageofme.jpg"
               alt="Error"
             />
           </div>
-          <div class="home-text-box">
+          <div class="home-text-box card">
             <p class="home-text">Hi, I am Simon Rapala.</p>
             <p class="home-text">
               I am a student who focuses on programming in C/Java and more
@@ -52,11 +54,13 @@
       </section>
 
       <section id="about">
-        <h2>About Me</h2>
+        <div class="header-container">
+          <h2 class="header-title card">About Me</h2>
+        </div>
         <div class="about-layout">
           <div class="about-card">
             <h3 class="about-title">What I Do</h3>
-            <div class="about-textbox-outline">
+            <div class="about-textbox-outline card">
               <ul>
                 <li>CS student (Co-op) @ UofG</li>
                 <li>Current focus: Java/Python + practical skills</li>
@@ -66,7 +70,7 @@
           </div>
           <div class="about-card">
             <h3 class="about-title">What I Enjoy</h3>
-            <div class="about-textbox-outline">
+            <div class="about-textbox-outline card">
               <ul>
                 <li>Outdoors: hiking, fishing, and exploring trails</li>
                 <li>Strength training and staying active</li>
@@ -78,7 +82,7 @@
           </div>
           <div class="about-card">
             <h3 class="about-title">Where I’m Going</h3>
-            <div class="about-textbox-outline">
+            <div class="about-textbox-outline card">
               <ul>
                 <li>Land a co-op/internship and ship real-world software</li>
                 <li>Keep building a portfolio of projects I can demo</li>
@@ -92,17 +96,19 @@
       </section>
 
       <section id="experience">
-        <h2>Experience</h2>
+        <div class="header-container">
+          <h2 class="header-title card">Experiance</h2>
+        </div>
         <div class="experience-list">
           <div class="experience-item">
-            <div class="job-header">
+            <div class="job-header card">
               <h3 class="job-title">Junior Marshal</h3>
               <p>
                 Beaverdale Golf Course<br />
                 Cambridge, ON • 2020
               </p>
             </div>
-            <ul class="job-info">
+            <ul class="job-info card">
               <li>
                 Cleaned and maintained golf carts daily (washing, charging,
                 staging, basic checks) to keep carts ready for use
@@ -119,14 +125,14 @@
           </div>
 
           <div class="experience-item">
-            <div class="job-header">
+            <div class="job-header card">
               <h3>Night Shift Manual Labourer</h3>
               <p>
                 Denso Canada <br />
                 Guelph, ON • 2023
               </p>
             </div>
-            <ul class="job-info">
+            <ul class="job-info card">
               <li>
                 Supported shipping and order fulfillment to meet deadlines
               </li>
@@ -143,10 +149,12 @@
       </section>
 
       <section id="projects">
-        <h2>Projects</h2>
+        <div class="header-container">
+          <h2 class="header-title card">Projects</h2>
+        </div>
         <div class="project-layout-grid">
           <div class="project-row-grid">
-            <div class="project-info">
+            <div class="project-info card">
               <h3>k-Nearest Neighbours Classifier(C)</h3>
               <ul>
                 <li>
@@ -163,15 +171,15 @@
                 </li>
               </ul>
             </div>
-            <div class="project-image">
+            <div class="project-image card">
               <img class="image-KNN" src="Images/projectKNN.png" />
             </div>
           </div>
           <div class="project-row-grid-reverse">
-            <div class="project-image">
+            <div class="project-image card">
               <img class="image-musicLL" src="Images/musicLL.png" />
             </div>
-            <div class="project-info">
+            <div class="project-info card">
               <h3>Linked-List Music Player</h3>
               <ul>
                 <li>
@@ -190,7 +198,7 @@
             </div>
           </div>
           <div class="project-row-grid">
-            <div class="project-info">
+            <div class="project-info card">
               <h3>Personal Portfolio Website</h3>
               <ul>
                 <li>
@@ -207,7 +215,7 @@
                 </li>
               </ul>
             </div>
-            <div class="project-image">
+            <div class="project-image card">
               <img class="image-portfolio" src="Images/websitePortfolio.png" />
             </div>
           </div>
@@ -215,12 +223,13 @@
       </section>
 
       <section id="contact">
-        <div class="header-contact-container">
-          <h2 class="header-contact-info">Contact Info</h2>
+        <div class="header-container">
+          <h2 class="header-title card">Contact Info</h2>
         </div>
 
         <div class="contact-info-grid-layout">
           <a
+            class="card"
             href="mailto:simonrapala833@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -228,7 +237,7 @@
             <img class="image-contact-info" src="Images/gmailLogo.png" alt="" />
             <p class="contact-link-text">Personal Email</p>
           </a>
-          <a href="#">
+          <a class="card" href="#">
             <img
               class="image-contact-info"
               src="Images/linkedinLogo.png"
@@ -237,6 +246,7 @@
             <p class="contact-link-text">LinkedIn</p>
           </a>
           <a
+            class="card"
             href="https://github.com/SimonRapala"
             target="_blank"
             rel="noopener noreferrer"
@@ -249,6 +259,7 @@
             <p class="contact-link-text">Github</p>
           </a>
           <a
+            class="card"
             href="assets/Simon_Rapala_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -261,7 +272,7 @@
             <p class="contact-link-text">Resume</p>
           </a>
           <a
-            class="school-email-link"
+            class="school-email-link card"
             href="mailto:srapala@uoguelph.ca"
             target="_blank"
             rel="noopener noreferrer"

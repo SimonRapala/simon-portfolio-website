@@ -5,6 +5,7 @@ a:hover,
 a:active,
 a:focus {
   color: #000;
+  color: #F2F7F5;
   text-decoration: none;
 }
 
@@ -16,16 +17,14 @@ a:focus {
   align-items: center;
   background-color: white;
   border: 1px solid black;
-  background-color: #071F19;
+  background-color: #022414;
 }
 
 .title-css{
   display: inline;
-  color: #F2F7F5  ;
+  color: #F2F7F5;
   margin: 0px;
   padding: 10px;
-  padding-left: 40px;
-  padding-right: 60px;
   text-align: center;
 }
 .nav-bar-box{
@@ -34,13 +33,16 @@ a:focus {
 
 .nav-bar-list{
   display: flex;
-  gap: 80px;
   justify-content: space-evenly;
+  color: #F2F7F5;
+  padding-left: 0px;
+  flex-wrap: wrap;
 }
 
 body{
   margin: 0px;
-  background-color: #061B16;
+  background-color: #022414;
+  line-height: 1.6;
 }
 
 p{
@@ -64,15 +66,14 @@ section {
 
 .home-layout{
   display: flex;
+  justify-content: space-around;
   align-items: top;
 }
 
 .home-text-box{
   border: 2px solid #D6B24C;
-  background-color: #0D2F27;
+  background-color: #123f21;
   border-radius: 24px;
-  margin-left: 100px;
-  
 }
 
 .home-text{
@@ -93,11 +94,11 @@ section {
   margin-bottom: 3px;
   border: 1px solid black;
   border-radius: 10%;
-  background-color: #2DD4BF;
+  background-color: #0b814a;
 }
 
 .profile-picture{
-  margin-right: 250px;
+  margin-right: 350px;
   margin-left: 100px;
   width: 320px;
   height: 270px;
@@ -110,7 +111,6 @@ section {
   justify-content: space-evenly;
   gap: 30px;
   margin: 30px;
-  align-items: flex-start;
 }
 
 .about-card{
@@ -126,7 +126,7 @@ section {
 
 .about-textbox-outline{
   border: 2px solid #D6B24C;
-  background-color: #0D2F27;
+  background-color: #123f21;
   color: #F2F7F5;;
   padding: 40px;
   border-radius: 24px;
@@ -155,7 +155,7 @@ section {
 .job-header, .job-info{
   margin: 0;
   border: 2px solid #D6B24C;
-  background-color: #0D2F27;
+  background-color: #123f21;
   color: #F2F7F5;
   border-radius: 22px;
   padding-left: 24px;
@@ -187,7 +187,7 @@ section {
   justify-items: center;
   padding: 16px;
   border: 2px solid #D6B24C;
-  background-color: #0D2F27;
+  background-color: #123f21;
   color: #F2F7F5;
 }
 .project-info{
@@ -209,16 +209,20 @@ section {
   height: 400px;
 }
 
-.header-contact-container{
+.header-container{
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 90px;
 }
 
-.header-contact-info{
+.header-title{
   display: inline-block;
   border: 1px solid #D6B24C;
-  background-color: #0D2F27;
+  background-color: #00551c;
   padding: 14px;
   border-radius: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .contact-info-grid-layout{
@@ -235,7 +239,7 @@ section {
   align-items: center;
   justify-content: center;
   border: 1px solid #D6B24C;
-  background-color: #0D2F27;
+  background-color: #123f21;
   padding: 40px 150px;
   border-radius: 25px;
 }
@@ -267,4 +271,7 @@ section {
 
 .contact-link-text{
   color: #F2F7F5;
+}
+.card{
+  box-shadow: -15px 15px 37px rgba(0,0,0,0.95);
 }
