@@ -275,3 +275,71 @@ section {
 .card{
   box-shadow: -15px 15px 37px rgba(0,0,0,0.95);
 }
+
+
+@media (max-width: 480px){
+  .home-header-container{
+    margin-top: 20px;
+  }
+  .profile-picture{
+    margin: 0px;
+  }
+  .home-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .home-layout{
+    flex-direction: column;
+  }
+
+  .about-layout{
+    flex-direction: column;
+  }
+
+  .about-textbox-outline{
+    padding: 18px;
+  }
+
+  .experience-item{
+    grid-template-columns: 1fr;
+  }
+
+  .project-row-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .project-row-grid-reverse{
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info-grid-layout{
+    grid-template-columns: 1fr;
+  }
+
+  *{
+  box-sizing: border-box;
+}
+
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.contact-info-grid-layout{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+}
+
+@media (max-width: 768px){
+
+}
