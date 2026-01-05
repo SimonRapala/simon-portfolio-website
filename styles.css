@@ -95,16 +95,15 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 38px;
-  margin-top: 55px;
+  margin: 55px 5px 5px 5px;
 }
 
 .home-btn{
   padding: 5px;
   margin-bottom: 3px;
   border: 1px solid black;
-  border-radius: 10%;
   background-color: #0b814a;
+  border-radius: 10px;
 }
 
 .profile-picture{
