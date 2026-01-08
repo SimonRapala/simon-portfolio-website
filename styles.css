@@ -9,6 +9,14 @@ a:focus {
   text-decoration: none;
 }
 
+h1{
+  font-family: "Space Grotesk";
+}
+
+h3{
+  font-family: "Space Grotesk";
+}
+
 img{
   max-width: 100%;
   height: auto;
@@ -53,6 +61,7 @@ body{
   margin: 0px;
   background-color: #022414;
   line-height: 1.6;
+  font-family: "Inter";
 }
 
 p{
@@ -63,6 +72,7 @@ h2{
   margin-top: 80px;
   margin-bottom: 55px;
   color: #EAF7F2;
+  font-family: "Space Grotesk";
 }
 
 section {
@@ -84,6 +94,7 @@ section {
   border: 2px solid #D6B24C;
   background-color: #123f21;
   border-radius: 24px;
+  margin-right:1vw;
 }
 
 .home-text{
@@ -189,7 +200,7 @@ section {
 .project-row-grid,
 .project-row-grid-reverse{
   display: grid;
-  grid-template-columns: max-content max-content;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   justify-content: space-evenly;
   align-items: flex-start;
   width: 100%;
@@ -206,7 +217,14 @@ section {
 }
 .project-info{
   align-self: center;
-  
+}
+
+.project-info-left{
+  margin-left: 1vw;
+}
+
+.project-info-right{
+  margin-left: 1vw;
 }
 
 .project-image{
@@ -307,6 +325,10 @@ section {
     padding-inline: 4vw;
   }
 
+  .home-text-box{
+    margin-right: 0;
+  }
+
   .about-layout{
     flex-direction: column;
   }
@@ -337,6 +359,10 @@ section {
   }
   .project-layout-grid > .project-row-grid:nth-of-type(odd) .project-image {
     order: 1;
+  }
+
+  .project-info{
+    margin: 0;
   }
 
 
